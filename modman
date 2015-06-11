@@ -1,0 +1,8 @@
+app/code/community/MobWeb/LogoUpload app/code/community/MobWeb/LogoUpload/
+
+app/design/frontend/base/default/template/mobweb_logoupload app/design/frontend/base/default/template/mobweb_logoupload/
+
+app/etc/modules/MobWeb_LogoUpload.xml app/etc/modules/MobWeb_LogoUpload.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

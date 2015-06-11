@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_LogoUpload>
+            <version>0.1.0</version>
+        </MobWeb_LogoUpload>
+    </modules>
+    <global>
+        <models>
+            <logoupload>
+                <class>MobWeb_LogoUpload_Model</class>
+            </logoupload>
+        </models>
+        <helpers>
+            <logoupload>
+                <class>MobWeb_LogoUpload_Helper</class>
+            </logoupload>
+        </helpers>
+        <blocks>
+            <page>
+                <rewrite>
+                    <html_header>MobWeb_LogoUpload_Block_Html_Header</html_header>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+ </config>
